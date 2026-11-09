@@ -1,0 +1,19 @@
+{
+  "name": "p1english",
+  "compatibility_date": "2026-10-28",
+  "main": "src/worker.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "REPORTS",
+      "id": "d2cd15b86e1e425390d20004e91c78d7"
+    }
+  ]
+}
